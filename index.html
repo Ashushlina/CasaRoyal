@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Markup02</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome/css/all.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header-top pd-lr-24">
+			<div class="header-top-left">
+				<div>
+					<i class="fas fa-map-marker-alt white-ico semi-transparent-ico"></i>
+					<span class="mg-l-12c mg-r-24">1441 Market St, San Francisco</span>
+				</div>
+				<div>
+					<i class="fas fa-phone-alt white-ico semi-transparent-ico"></i>
+					<span class="mg-l-12 mg-r-24">(123) 456-7890</span>
+				</div>
+				<div>
+					<i class="fas fa-clock white-ico semi-transparent-ico"></i>
+					<span class="mg-l-12 mg-r-24">Mon - Sun: 8:00am - 6:00pm</span>
+				</div>
+			</div>
+			<div class="header-top-right">
+				<a href="#"><i class="fas fa-search white-ico left-border-ico"></i></a>
+				<a href="#" class="mg-l-24"><i class="fab fa-facebook-f white-ico left-border-ico"></i></a>
+				<a href="#" class="mg-l-24"><i class="fab fa-twitter white-ico left-border-ico"></i></a>
+				<a href="#" class="mg-l-24"><i class="fab fa-instagram white-ico left-border-ico"></i></a>
+				<a href="#" class="mg-l-24"><i class="fab fa-pinterest-p white-ico left-border-ico mg-r-24"></i></a>
+				<div class="header-top-r-btn">
+					<i class="fas fa-sign-in-alt white-ico left-border-ico"></i>
+					<a href="#" class="mg-l-12">Login/Register</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom pd-l-24">
+			<div class="header-flex">			
+				<img src="img/logo.svg" alt="" class="header-right-border-img">
+				<nav>
+					<ul>
+						<li class="mg-l-36"><a href="#">Homepage<i class="fas fa-chevron-down mg-l-6"></i></a></li>
+						<li class="mg-l-24"><a href="#">Properties<i class="fas fa-chevron-down mg-l-6"></i></a></li>
+						<li class="mg-l-24"><a href="#">Agencies<i class="fas fa-chevron-down mg-l-6"></i></a></li>
+						<li class="mg-l-24"><a href="#">Pages<i class="fas fa-chevron-down mg-l-6"></i></a></li>
+						<li class="mg-l-24"><a href="#">About</a></li>
+						<li class="mg-l-24"><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-flex">
+				<a href="#" class="mg-r-36">Compare<i class="far fa-check-circle mg-l-6"></i></a>
+				<a href="#"><i class="far fa-heart header-left-border-img"></i></a>
+				<a href="#" class="orange-button">Submit listing</a>
+			</div>
+		</div>
+		<div class="header-hero">
+			<div>
+				<h2>Let Us Guide You Home</h2>
+				<span>Find the house of your dreams</span>
+				<div class="hero-form-container">
+					<div>
+						<span class="hero-form-span">Type</span>
+						<select name="" id="type-select">
+							<option value="Select type">Select type</option>
+							<option value="Type 1">Type 1</option>
+						</select>
+					</div>
+					<div>
+						<span class="hero-form-span">Status</span>
+						<select name="" id="status-select" class="mg-l-30">
+							<option value="Select status">Select status</option>
+							<option value="Status 1">Status 1</option>
+						</select>
+					</div>
+					<input type="text" placeholder="Searh for properties, suburbs or keywords…" class="mg-l-30">
+					<button class="mg-l-30">Find properties</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<section class="centered-section mg-t-120">
+				<span class="before-title-span">Casaroyal real estate agency</span>
+				<h2 class="mg-b-88"><strong>Featured</strong> Properties</h2>
+				<div class="property-cards">
+					<div class="property-card-container">
+						<div class="property-card property-card1">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property-card-container">
+						<div class="property-card property-card2">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property-card-container">
+						<div class="property-card property-card3">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property-card-container">
+						<div class="property-card property-card4">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property-card-container">
+						<div class="property-card property-card5">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="property-card-container">
+						<div class="property-card property-card6">
+							<span class="primary-span tag-span house-span">House</span>
+							<span class="secondary-span tag-span sale-span">For sale</span>
+							<span class="primary-span tag-span fast-span"><i class="fas fa-bolt white-ico"></i></span>
+							<span class="white-span tag-span price-span">$320.000.000</span>
+							<span class="black-span tag-span like-span"><i class="far fa-heart white-ico"></i></span>
+							<span class="black-span tag-span exchange-span"><i class="fas fa-exchange-alt white-ico"></i></span>
+						</div>
+						<div class="property-card-info pd-all-25">
+							<div>
+								<i class="fas fa-map-marker-alt orange-ico"></i>
+								<span class="card-location">Beverly Hills, CA</span>
+							</div>
+							<span class="card-adress mg-t-16">272 S Rexford Dr, Beverly Hills, CA 90212, USA</span>
+							<div class="card-info-row mg-t-16">
+								<div class="card-owner-conatiner">
+									<div class="card-owner"></div>
+									<span class="card-avatar mg-l-6">Hellen Mattis</span>
+								</div>
+								<div>
+									<i class="far fa-calendar-alt grey-ico"></i>
+									<span class="card-date">4 months ago</span>
+								</div>
+							</div>
+							<div class="line-div mg-t-8"></div>
+							<div class="card-info-row mg-t-8">
+								<div>
+									<img src="img/card-square.svg" alt="">
+									<span class="card-square mg-l-6">2400 Sq Ft</span>
+								</div>
+								<div>
+									<img src="img/card-parking.svg" alt="">
+									<span class="card-qty">2</span>
+									<img src="img/card-bathroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+									<img src="img/card-bedroom.svg" alt="" class="mg-l-6">
+									<span class="card-qty">3</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="end-black-btn pd-tb-80">
+					<a href="#" class="black-round-btn">All Properties</a>
+				</div>
+			</section>
+			<section class="centered-section mg-t-120">
+				<span class="before-title-span">Casaroyal real estate agency</span>
+				<h2 class="mg-b-88"><strong>Hot</strong> Deal</h2>
+				<div class="hotdeal">
+					<div class="hotdeal-img">
+						<span class="white-span info-span">Photos (4)</span>
+					</div>
+					<div class="hotdeal-info">
+						<span class="info-transparent-span mg-t-32 ">Residential Tower For Rent</span>
+						<h3>15 Apartments of Type B</h3>
+						<div>
+							<span class="info-transparent-span">Los Angeles, CA</span>
+						</div>
+						<span class="secondary-span info-span mg-t-32 ">From $1,700.00 Per Month</span>
+						<div class="deal-video-btn mg-t-64"></div>
+						<div class="deal-icons mg-t-64 ">
+							<img src="img/deal-icon1.svg" alt="">
+							<div class="deal-icons-span-wrapper mg-l-6 "><span>1600</span><span>Sq Ft</span></div>
+							<img src="img/deal-icon2.svg" alt="" class="mg-l-36">
+							<div class="deal-icons-span-wrapper mg-l-6 "><span>2</span><span>Beds</span></div>
+							<img src="img/deal-icon3.svg" alt="" class="mg-l-36">
+							<div class="deal-icons-span-wrapper mg-l-6 "><span>1</span><span>Bath</span></div>
+							<img src="img/deal-icon4.svg" alt="" class="mg-l-36">
+							<div class="deal-icons-span-wrapper mg-l-6 "><span>1</span><span>Garage</span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="centered-section mg-t-120">
+				<span class="before-title-span">Casaroyal real estate agency</span>
+				<h2 class="mg-b-88"><strong>Properties</strong> by Area</h2>
+				<div class="area-wrapper">
+					<div class="area-photo area-photo1">
+						<div class="photo-inner">
+							<h4>Los Angeles</h4>
+							<i class="far fa-dot-circle"></i>
+							<span>24 Properties</span>
+						</div>
+					</div>
+					<div class="area-photo area-photo2">
+						<div class="photo-inner">
+							<h4>San Francisco</h4>
+							<i class="far fa-dot-circle"></i>
+							<span>19 Properties</span>
+						</div>
+					</div>
+					<div class="area-photo area-photo3">
+						<div class="photo-inner">
+							<h4>Seattle</h4>
+							<i class="far fa-dot-circle"></i>
+							<span>13 Properties</span>
+						</div>
+					</div>
+					<div class="area-photo area-photo4">
+						<div class="photo-inner">
+							<h4>Seattle</h4>
+							<i class="far fa-dot-circle"></i>
+							<span>1 Property</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="mg-t-120 grey-section pd-tb-80">
+				<div class="container">
+					<div class="grey-section-wrapper">
+						<span class="before-title-span">MEET OUR TEAM</span>
+						<h2 class="mg-b-88"><strong>Our</strong> Agents</h2>
+						<div class="agents-wrapper">
+							<div class="agent-wrapper wrapper-trio">
+								<img src="img/agent1.png" alt="">
+								<span class="grey-span mg-t-32">Real Estate Broker</span>
+								<h5 class="mg-t-16">John Dow</h5>
+								<span class="grey-span mg-t-32">123 456 7890</span>
+								<span class="grey-span mg-t-8">agent@gmail.com</span>
+								<div class="agent-card-socials mg-t-32">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</div>
+							</div>
+							<div class="agent-wrapper wrapper-trio">
+								<img src="img/agent2.png" alt="">
+								<span class="grey-span mg-t-32">Real Estate Broker</span>
+								<h5 class="mg-t-16">John Dow</h5>
+								<span class="grey-span mg-t-32">123 456 7890</span>
+								<span class="grey-span mg-t-8">agent@gmail.com</span>
+								<div class="agent-card-socials mg-t-32">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</div>
+							</div>
+							<div class="agent-wrapper wrapper-trio">
+								<img src="img/agent3.png" alt="">
+								<span class="grey-span mg-t-32">Real Estate Broker</span>
+								<h5 class="mg-t-16">John Dow</h5>
+								<span class="grey-span mg-t-32">123 456 7890</span>
+								<span class="grey-span mg-t-8">agent@gmail.com</span>
+								<div class="agent-card-socials mg-t-32">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="slider-points"></div>
+					</div>
+				</div>
+		</section>
+		<section class="background-img-section background-img-section2">
+			<div class="container">
+				<div class="img-section-message">
+					<h2>Want to Sell Property?</h2>
+					<p class="mg-t-32">Let us create a tailored strategic marketing plan and keep track of the selling process.</p>
+					<a href="#" class="black-round-btn mg-t-32">More details
+						<i class="fas fa-chevron-right mg-l-24"></i></a>
+				</div>
+			</div>
+		</section>
+		<section class="grey-section pd-tb-80">
+				<div class="container">
+					<div class="grey-section-wrapper">
+						<span class="before-title-span">Meet our team</span>
+						<h2 class="mg-b-88"><strong>Real Estate</strong> Agence</h2>
+						<div class="grey-section-inner">
+							<div class="agencies-wrapper wrapper-trio">
+								<div class="agency-card-top">
+									<div>
+										<img src="img/verified.svg" alt="">
+										<span class="grey-span">Verified</span>
+									</div>
+									<div>
+										<i class="fas fa-star yellow-ico"></i>
+										<span class="grey-span">4.5</span>
+									</div>
+								</div>
+								<img src="img/agency1.png" alt="" class="agency-logo mg-t-64">
+								<div class="mg-t-64">
+									<img src="img/flag.svg" alt="">
+									<span class="grey-span">San Francisco, USA</span>
+								</div>
+								<h5 class="mg-t-16">ProHouse</h5>
+								<span class="grey-span mg-t-16">123 456 7890</span>
+								<span class="grey-span mg-t-8">agency@email.com</span>
+								<span class="info-span agency-info-span mg-t-32">3 properties</span>
+							</div>
+							<div class="agencies-wrapper wrapper-trio">
+								<div class="agency-card-top">
+									<div>
+										<img src="img/verified.svg" alt="">
+										<span class="grey-span">Verified</span>
+									</div>
+									<div>
+										<i class="fas fa-star yellow-ico"></i>
+										<span class="grey-span">4.5</span>
+									</div>
+								</div>
+								<img src="img/agency2.png" alt="" class="agency-logo mg-t-64">
+								<div class="mg-t-64">
+									<img src="img/flag.svg" alt="">
+									<span class="grey-span">Los Angeles, USA</span>
+								</div>
+								<h5 class="mg-t-16">beHome</h5>
+								<span class="grey-span mg-t-16">123 456 7890</span>
+								<span class="grey-span mg-t-8">agency@email.com</span>
+								<span class="info-span agency-info-span mg-t-32">3 properties</span>
+							</div>
+							<div class="agencies-wrapper wrapper-trio">
+								<div class="agency-card-top">
+									<div>
+										<img src="img/verified.svg" alt="">
+										<span class="grey-span">Verified</span>
+									</div>
+									<div>
+										<i class="fas fa-star yellow-ico"></i>
+										<span class="grey-span">4.5</span>
+									</div>
+								</div>
+								<img src="img/agency3.png" alt="" class="agency-logo mg-t-64">
+								<div class="mg-t-64">
+									<img src="img/flag.svg" alt="">
+									<span class="grey-span">Seattle, USA</span>
+								</div>
+								<h5 class="mg-t-16">Alain Doe</h5>
+								<span class="grey-span mg-t-16">123 456 7890</span>
+								<span class="grey-span mg-t-8">agency@email.com</span>
+								<span class="info-span agency-info-span mg-t-32">3 properties</span>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="darkgrey-section pd-t-80">
+				<div class="container">
+					<div class="grey-section-wrapper">
+						<span class="before-title-span">Casaroyal news</span>
+						<h2 class="mg-b-88"><strong>Articles</strong> & Tips</h2>
+						<div class="grey-section-inner">
+							<div class="tip-wrapper wrapper-trio">
+								<img src="img/tip1.png" alt="" class="img">
+								<div class="tip-info-wrapper">
+									<span class="primary-span tag-span house-span">Category</span>
+									<h6 class="mg-t-16">Buying a home</h6>
+									<div class="line-div mg-t-64"></div>
+									<div class="mg-t-32">
+									<img src="img/time.svg" alt="">
+									<span>December 28, 2018</span>
+									</div>
+								</div>
+							</div>
+							<div class="tip-wrapper wrapper-trio">
+								<img src="img/tip2.png" alt="" class="img">
+								<div class="tip-info-wrapper">
+									<span class="primary-span tag-span house-span">Category</span>
+									<h6 class="mg-t-16">Pros 4 cons on a countryside house</h6>
+									<div class="line-div mg-t-32"></div>
+									<div class="mg-t-32">
+									<img src="img/time.svg" alt="">
+									<span>December 28, 2018</span>
+									</div>
+								</div>
+							</div>
+							<div class="tip-wrapper wrapper-trio">
+								<img src="img/tip3.png" alt="" class="img">
+								<div class="tip-info-wrapper">
+									<span class="primary-span tag-span house-span">Category</span>
+									<h6 class="mg-t-16">Buying a home</h6>
+									<div class="line-div mg-t-64"></div>
+									<div class="mg-t-32">
+									<img src="img/time.svg" alt="">
+									<span>December 28, 2018</span>
+									</div>
+								</div>
+							</div>
+						</div> <!-- Grey section inner-->
+						<div class="end-black-btn pd-tb-80">
+							<a href="#" class="black-round-btn">More articles & tips</a>
+						</div>
+					</div> <!-- Grey-section-wrapper-->
+				</div> <!-- Container -->
+		</section>
+		<section class="grey-section pd-t-80">
+				<div class="container">
+					<div class="grey-section-wrapper">
+						<span class="before-title-span">Casaroyal real estate agency</span>
+						<h2 class="mg-b-88"><strong>Our</strong> Values</h2>
+						<div class="grey-section-inner">
+							<div class="wrapper-trio-noback">
+								<i class="far fa-comment blue-big-icon fa-3x"></i>
+								<h5 class="mg-t-16">Ensuring clear communication</h5>
+								<p class="mg-t-16">We keep you in the loop every step of the way. You can rely on a transparent, comprehensible flow of information.
+								</p>
+							</div>
+							<div class="wrapper-trio-noback">
+								<i class="far fa-paper-plane blue-big-icon fa-3x"></i>
+								<h5 class="mg-t-16">Making the most of technology</h5>
+								<p class="mg-t-16">Time is precious. We guarantee a high degree of efficiency and a premium level of service by using the right tools.
+								</p>
+							</div>
+							<div class="wrapper-trio-noback">
+								<i class="far fa-heart blue-big-icon fa-3x"></i>
+								<h5 class="mg-t-16">Providing excellent customer service</h5>
+								<p class="mg-t-16">We are passionate about what we do and we take pride in achieving the personalised results that you have in mind.
+								</p>					
+							</div>
+						</div>
+						<div class="end-black-btn pd-tb-80">
+							<a href="#" class="black-round-btn">Read more</a>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="background-img-section background-img-section3">
+			<div class="container">
+				<div class="img-section-content">
+					<span class="before-title-span">Clients reviews</span>
+					<h2 class="mg-b-88"><strong>What</strong> Our Clients Say</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend nunc sem, sit amet luctus tellus tempus tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					<div class="review-line-wrapper mg-t-32">
+						<div class="review-author-wrapper">						
+							<img src="img/user-photo.png" alt="">
+							<div class="review-span-wrapper mg-l-24">
+								<span class="review-caps-span">Alan Poe</span>
+								<span class="review-grey-span">San Francisco</span>
+							</div>
+						</div>
+						<div>
+							<a href="" class="arrow-blue-btn"><i class="fas fa-chevron-left"></i></a>
+							<a href="" class="arrow-blue-btn"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer-top-wrapper">
+			<div class="container">
+				<div class="footer-top">
+					<img src="img/logo-footer.svg" alt="">
+					<div class="footer-top-socials">
+						<a href="#" class="mg-l-24"><i class="fab fa-facebook-f white-ico left-border-ico footer-l-border-ico"></i></a>
+						<a href="#" class="mg-l-24"><i class="fab fa-twitter white-ico left-border-ico footer-l-border-ico"></i></a>
+						<a href="#" class="mg-l-24"><i class="fab fa-instagram white-ico left-border-ico footer-l-border-ico"></i></a>
+						<a href="#" class="mg-l-24"><i class="fab fa-pinterest-p white-ico left-border-ico footer-lr-border-ico"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer-center pd-tb-80">
+				<div>
+					<span class="footer-span">Information</span>
+					<ul>
+						<li class="mg-t-32"><a href="#" class="footer-menu-item">Our Contacts</a></li>
+						<li><a href="#" class="footer-menu-item">Privacy Policy</a></li>
+						<li><a href="#" class="footer-menu-item">Terms and Conditions</a></li>
+						<li><a href="#" class="footer-menu-item">FAQs</a></li>
+					</ul>
+				</div>
+				<div>
+					<span class="footer-span">Properties</span>
+					<ul>
+						<li class="mg-t-32"><a href="#" class="footer-menu-item">Commercial</a></li>
+						<li><a href="#" class="footer-menu-item">House</a></li>
+						<li><a href="#" class="footer-menu-item">Office</a></li>
+						<li><a href="#" class="footer-menu-item">Residential</a></li>
+						<li><a href="#" class="footer-menu-item">Residential Tower</a></li>
+					</ul>
+				</div>
+				<div>
+					<span class="footer-span">Losations</span>
+					<ul>
+						<li class="mg-t-32"><a href="#" class="footer-menu-item">Beverly hills</a></li>
+						<li><a href="#" class="footer-menu-item">Los Angeles</a></li>
+						<li><a href="#" class="footer-menu-item">Mission Viejo</a></li>
+						<li><a href="#" class="footer-menu-item">Newport Beach</a></li>
+						<li><a href="#" class="footer-menu-item">Pasadena</a></li>
+					</ul>
+				</div>
+				<div>
+					<span class="footer-span">Useful links</span>
+					<ul>
+						<li class="mg-t-32"><a href="#" class="footer-menu-item">Blog</a></li>
+						<li><a href="#" class="footer-menu-item">Our contacts</a></li>
+						<li><a href="#" class="footer-menu-item">Submit listing</a></li>
+						<li><a href="#" class="footer-menu-item">Support</a></li>
+					</ul>
+				</div>
+				<div>
+					<span class="footer-span">About Casaroyal</span>
+					<div>
+						<p class="mg-t-32">casaRoyal - Premium Real Estate WordPress<p>
+						<p>Theme by FantasyThemes</p>
+					</div>
+					<div class="footer-contacts mg-t-32">
+						<div><i class="fas fa-location-arrow white-ico semi-transparent-ico"></i><span class="mg-l-6">111 Wall Stree, USA, New York</span></div>
+						<div><i class="fas fa-phone-alt white-ico semi-transparent-ico"></i><span class="mg-l-6">+1 (234) 567 8900</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom-wrapper">
+			<div class="container">
+				<div class="footer-bottom">
+					<span>Proudly powered by <strong>WordPress</strong> and <strong>casaRoyal</strong> by <strong>FantasyTheme</strong></span>
+					<div>
+						<a href="#">Privacy Policy</a>
+						<a href="#" class="mg-l-24">Terms and Conditions</a>
+						<a href="#" class="mg-l-24">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

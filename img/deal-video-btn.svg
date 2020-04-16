@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Video Button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="casaRoyal" transform="translate(-1151.000000, -3039.000000)">
+            <g id="Section---Hot-Deal" transform="translate(240.000000, 2478.000000)">
+                <g id="Property-Block" transform="translate(0.000000, 184.000000)">
+                    <g id="Video-Button" transform="translate(911.000000, 377.000000)">
+                        <circle id="Oval" stroke="#9B9B9B" stroke-width="2" cx="30" cy="30" r="29"></circle>
+                        <path d="M40.1450763,37.5 L23.8549237,37.5 L32,23.0198644 L40.1450763,37.5 Z" id="Triangle" stroke="#979797" fill="#9B9B9B" transform="translate(32.000000, 30.000000) rotate(-270.000000) translate(-32.000000, -30.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
