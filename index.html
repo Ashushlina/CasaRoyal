@@ -2,84 +2,88 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Markup02</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/all.css">
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
 	<header class="header">
-		<div class="header-top pd-lr-24">
+		<div class="header-top">
 			<div class="header-top-left">
 				<div>
 					<i class="fas fa-map-marker-alt white-ico semi-transparent-ico"></i>
-					<span class="mg-l-12c mg-r-24">1441 Market St, San Francisco</span>
+					<span>1441 Market St, San Francisco</span>
 				</div>
 				<div>
 					<i class="fas fa-phone-alt white-ico semi-transparent-ico"></i>
-					<span class="mg-l-12 mg-r-24">(123) 456-7890</span>
+					<span>(123) 456-7890</span>
 				</div>
 				<div>
 					<i class="fas fa-clock white-ico semi-transparent-ico"></i>
-					<span class="mg-l-12 mg-r-24">Mon - Sun: 8:00am - 6:00pm</span>
+					<span>Mon - Sun: 8:00am - 6:00pm</span>
 				</div>
-			</div>
+			</div> <!-- header-top-left END -->
 			<div class="header-top-right">
-				<a href="#"><i class="fas fa-search white-ico left-border-ico"></i></a>
-				<a href="#" class="mg-l-24"><i class="fab fa-facebook-f white-ico left-border-ico"></i></a>
-				<a href="#" class="mg-l-24"><i class="fab fa-twitter white-ico left-border-ico"></i></a>
-				<a href="#" class="mg-l-24"><i class="fab fa-instagram white-ico left-border-ico"></i></a>
-				<a href="#" class="mg-l-24"><i class="fab fa-pinterest-p white-ico left-border-ico mg-r-24"></i></a>
-				<div class="header-top-r-btn">
-					<i class="fas fa-sign-in-alt white-ico left-border-ico"></i>
-					<a href="#" class="mg-l-12">Login/Register</a>
+				<a href="#"><i class="fas fa-search white-ico"></i></a>
+				<a href="#"><i class="fab fa-facebook-f white-ico"></i></a>
+				<a href="#"><i class="fab fa-twitter white-ico"></i></a>
+				<a href="#"><i class="fab fa-instagram white-ico"></i></a>
+				<a href="#"><i class="fab fa-pinterest-p white-ico"></i></a>
+				<div class="header-top-right-btn">
+					<i class="fas fa-sign-in-alt white-ico"></i>
+					<a href="#">Login/Register</a>
 				</div>
-			</div>
-		</div>
-		<div class="header-bottom pd-l-24">
-			<div class="header-flex">			
+			</div> <!-- header-top-right END -->
+		</div> <!-- header-top END -->
+		<div class="header-bottom">
+			<div class="header-bottom-left">			
 				<img src="img/logo.svg" alt="" class="header-right-border-img">
 				<nav>
-					<ul>
-						<li class="mg-l-36"><a href="#">Homepage<i class="fas fa-chevron-down mg-l-6"></i></a></li>
-						<li class="mg-l-24"><a href="#">Properties<i class="fas fa-chevron-down mg-l-6"></i></a></li>
-						<li class="mg-l-24"><a href="#">Agencies<i class="fas fa-chevron-down mg-l-6"></i></a></li>
-						<li class="mg-l-24"><a href="#">Pages<i class="fas fa-chevron-down mg-l-6"></i></a></li>
-						<li class="mg-l-24"><a href="#">About</a></li>
-						<li class="mg-l-24"><a href="#">Contact</a></li>
+					<ul class="header-nav-ul">
+						<li><a href="#">Homepage<i class="fas fa-chevron-down"></i></a></li>
+						<li><a href="#">Properties<i class="fas fa-chevron-down"></i></a></li>
+						<li><a href="#">Agencies<i class="fas fa-chevron-down"></i></a></li>
+						<li><a href="#">Pages<i class="fas fa-chevron-down"></i></a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</nav>
-			</div>
-			<div class="header-flex">
-				<a href="#" class="mg-r-36">Compare<i class="far fa-check-circle mg-l-6"></i></a>
+			</div> <!-- header-bottom-left END -->
+			<div class="header-bottom-right">
+				<a href="#" class="header-nav-style-link">Compare<i class="far fa-check-circle fa-lg"></i></a>
 				<a href="#"><i class="far fa-heart header-left-border-img"></i></a>
-				<a href="#" class="orange-button">Submit listing</a>
-			</div>
-		</div>
-		<div class="header-hero">
-			<div>
-				<h2>Let Us Guide You Home</h2>
-				<span>Find the house of your dreams</span>
-				<div class="hero-form-container">
-					<div>
-						<span class="hero-form-span">Type</span>
-						<select name="" id="type-select">
-							<option value="Select type">Select type</option>
-							<option value="Type 1">Type 1</option>
-						</select>
-					</div>
-					<div>
-						<span class="hero-form-span">Status</span>
-						<select name="" id="status-select" class="mg-l-30">
-							<option value="Select status">Select status</option>
-							<option value="Status 1">Status 1</option>
-						</select>
-					</div>
-					<input type="text" placeholder="Searh for properties, suburbs or keywords…" class="mg-l-30">
-					<button class="mg-l-30">Find properties</button>
+				<div class="header-bottom-right-btn">
+				<a href="#">Submit listing</a>
 				</div>
-			</div>
-		</div>
+			</div> <!-- header-bottom-right END -->
+		</div> <!-- header-bottom END -->
+		<div class="header-hero">
+			<div class="container">
+				<h2>Let Us Guide You Home</h2>
+				<span class="hero-text">Find the house of your dreams</span>
+				<div class="hero-form-container">
+					<div class="hero-form-pseudo-select">
+						<span class="hero-form-title">Type</span>
+						<div class="hero-form-pseudo-select-flex">
+							<span class="hero-form-choice">Select type</span>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+					</div>
+					<div class="hero-form-pseudo-select">
+						<span class="hero-form-title">Status</span>
+						<div class="hero-form-pseudo-select-flex">
+							<span class="hero-form-choice">Select status</span>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+					</div>
+					<input type="text" placeholder="Searh for properties, suburbs or keywords…">
+					<button>Find properties</button>
+				</div> <!-- hero-form-container END -->
+			</div> <!-- container END -->
+		</div> <!-- header-hero END -->
 	</header>
 	<main>
 		<div class="container">
@@ -369,6 +373,7 @@
 							<img src="img/deal-icon4.svg" alt="" class="mg-l-36">
 							<div class="deal-icons-span-wrapper mg-l-6 "><span>1</span><span>Garage</span></div>
 						</div>
+						<span class="hotdeal-small-only">Photos (4)</span>
 					</div>
 				</div>
 			</section>
